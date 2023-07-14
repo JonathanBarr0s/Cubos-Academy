@@ -31,7 +31,7 @@ Aqui estão todos os exercícios do curso de Desenvolvimento de Software com Foc
                 <th colspan="3">Atividades do Módulo</th>
             </tr>
             <tr>
-                <th>Exercícios</th>
+                <th>Exercício</th>
                 <th>Solução</th>
                 <th>Tecnologia</th>
             </tr>
