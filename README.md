@@ -18,7 +18,7 @@
   
 </div><br/>
 
-Aqui estão todos os exercícios do curso de Desenvolvimento de Software com Foco em Backend por módulos:
+Aqui estão todas as atividades que realizei durante o curso dividido em módulos:
 
 <!-- Módulo 1 -->
 <details>
