@@ -1,9 +1,13 @@
 <h1 align="center">Exercícios e Desafios do curso de Desenvolvimento de Software com foco em Back-end da Cubos Academy :books:</h1>
 
+<br>
+
 <!--Banner session-->
 <p align="center">
   <img src="https://global-uploads.webflow.com/6092ed75cac3156e208ac5e9/6449dd3900dfb768270ef41c_cubos%2Bpotenciatech.webp">
 </p>
+
+<br><br>
 
 ## Tecnologias utilizadas no curso:
 
@@ -16,10 +20,10 @@
   <img align="center" alt="nodejs" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
 </p>
   
-</div><br/>
+</div><br/><br>
 
 Aqui estão todas as atividades que realizei durante o curso divididas em módulos:
-
+  
 <!-- Módulo 1 -->
 <details>
     <summary><strong>Módulo 1</strong></summary>
@@ -46,12 +50,3 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">✔️</td>
             </tr>			-->
         </table>  
-
-
-      
-      
-      
-  <!---
-# Cubos-Academy
- Aqui estão todos os exercícios do curso de Desenvolvimento de Software com Foco em Backend - iFood
---->
