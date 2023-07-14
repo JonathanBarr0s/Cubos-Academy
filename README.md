@@ -18,7 +18,7 @@
   
 </div><br/>
 
-Aqui estão todas as atividades que realizei durante o curso dividido em módulos:
+Aqui estão todas as atividades que realizei durante o curso divididas em módulos:
 
 <!-- Módulo 1 -->
 <details>
