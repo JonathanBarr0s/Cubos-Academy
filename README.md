@@ -15,7 +15,7 @@ Aqui estão todos os exercícios do curso de Desenvolvimento de Software com Foc
       <!-- Tabela -->
         <table border=1>
             <tr>
-                <th colspan="3">Atividades do módulo</th>
+                <th colspan="3">Atividades do Módulo</th>
             </tr>
             <tr>
                 <th>Exercícios</th>
