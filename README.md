@@ -62,25 +62,25 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
             </tr>
             <tr>
                 <td align="center">Calculadora de IMC</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/blob/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/1.%20Calculadora%20de%20IMC/calculadoraIMC">Código</a></td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/1.%20Calculadora%20de%20IMC">Código</a></td>
                 <td align="center">JavaScript</td>
                 <td>Descrição</td>
             </tr>
             <tr>
                 <td align="center">Fahrenheit x Celsius</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/blob/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/2.%20Fahrenheit%20x%20Celsius/fahrenheitXCelsius.js">Código</a></td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/2.%20Fahrenheit%20x%20Celsius">Código</a></td>
                 <td align="center">JavaScript</td>
                 <td>Descrição</td>
             </tr>
             <tr>
                 <td align="center">Desconto do tênis</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/blob/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/3.%20Desconto%20do%20t%C3%AAnis/descontoDoTenis.js">Código</a></td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/3.%20Desconto%20do%20t%C3%AAnis">Código</a></td>
                 <td align="center">JavaScript</td>
                 <td>Descrição</td>
             </tr>
             <tr>
                 <td align="center">Calcular juros compostos</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/blob/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/4.%20Calcular%20juros%20compostos/calcularJurosCompostos.js">Código</a></td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/4.%20Calcular%20juros%20compostos">Código</a></td>
                 <td align="center">JavaScript</td>
                 <td>Descrição</td>
             </tr>
