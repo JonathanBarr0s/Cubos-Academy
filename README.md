@@ -62,19 +62,19 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
             </tr>
             <tr>
                 <td align="center">Calculadora de IMC</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/1.%20Calculadora%20de%20IMC">Código</a></td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/01.%20Calculadora%20de%20IMC">Código</a></td>
                 <td align="center">JavaScript</td>
                 <td>Descrição</td>
             </tr>
             <tr>
                 <td align="center">Fahrenheit x Celsius</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/2.%20Fahrenheit%20x%20Celsius">Código</a></td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/02.%20Fahrenheit%20x%20Celsius">Código</a></td>
                 <td align="center">JavaScript</td>
                 <td>Descrição</td>
             </tr>
             <tr>
                 <td align="center">Desconto do tênis</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/3.%20Desconto%20do%20t%C3%AAnis">Código</a></td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/03.%20Desconto%20do%20t%C3%AAnis">Código</a></td>
                 <td align="center">JavaScript</td>
                 <td>Descrição</td>
             </tr>
@@ -84,6 +84,60 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript</td>
                 <td>Descrição</td>
             </tr>
+            <tr>
+                <td align="center">Calcular a distância entre dois pontos</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/05.%20Calcular%20a%20dist%C3%A2ncia%20entre%20dois%20pontos">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Velocidade média</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/06.%20Velocidade%20m%C3%A9dia">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Casos de COVID-19</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/07.%20Casos%20de%20COVID-19">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Calculo do perímetro e área de um círculo</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/08.%20Calculo%20do%20per%C3%ADmetro%20e%20%C3%A1rea%20de%20um%20c%C3%ADrculo">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Soma dos ângulos internos de um polígono</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/09.%20Soma%20dos%20%C3%A2ngulos%20internos%20de%20um%20pol%C3%ADgono">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Delta</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/10.%20Delta">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Volume de uma esfera</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/11.%20Volume%20de%20uma%20esfera">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Taxa de juros</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/12.%20Taxa%20de%20juros">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Área total de um cilindro</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/13.%20%C3%81rea%20total%20de%20um%20cilindro">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>        
 <!--        <tr>
                 <td>Fórmula de Bhaskara</td>
                 <td><a href="https://github.com/shyoutarou/desafios-DIO/tree/master/Desafios/C%20Sharp/Desafios%20-%20Banco%20Carrefour%20Woman%20Developer/F%C3%B3rmula%20de%20Bhaskara">Código</a></td>
