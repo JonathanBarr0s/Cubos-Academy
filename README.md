@@ -80,7 +80,7 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
             </tr>
             <tr>
                 <td align="center">Calcular juros compostos</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/4.%20Calcular%20juros%20compostos">Código</a></td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/2.%20Vari%C3%A1veis/04.%20Calcular%20juros%20compostos">Código</a></td>
                 <td align="center">JavaScript</td>
                 <td>Descrição</td>
             </tr>
