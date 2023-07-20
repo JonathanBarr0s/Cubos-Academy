@@ -151,7 +151,7 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">Pedra, papel ou tesoura</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/01.%20Pedra%2C%20papel%20ou%20tesoura">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Criar um programa que simule "Pedra, papel ou tesoura" entre duas pessoas e imprima o resultado vencedor ou "empate"..</td>
             </tr>
             <tr>
                 <td align="center">Par ou ímpar</td>
