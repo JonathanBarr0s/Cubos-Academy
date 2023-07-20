@@ -211,42 +211,42 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">Valor da parcela do Sucesso Compartilhado</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/11.%20Valor%20da%20parcela%20do%20Sucesso%20Compartilhado">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Criar um programa que calcule o valor da parcela a ser paga por um aluno. O programa deve imprimir o valor em reais para o aluno, considerando as condições do contrato.</td>
             </tr>
             <tr>
                 <td align="center">Dia da Semana</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/12.%20Dia%20da%20Semana">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Criar um programa que, dado um número correspondente ao dia da semana (1 a 7), imprima o dia por extenso. Caso o número esteja fora do intervalo, deve-se imprimir uma mensagem de erro.</td>
             </tr>
             <tr>
                 <td align="center">Compra com Desconto</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/13.%20Compra%20com%20Desconto">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Criar um programa que, dado o tipo de pagamento e o valor do produto em centavos, calcule e imprima o valor final com o desconto aplicado.</td>
             </tr>
             <tr>
                 <td align="center">Controle de Consumo de Água Ingerida</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/14.%20Controle%20de%20Consumo%20de%20%C3%81gua%20Ingerida">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Desenvolver um programa que avalie a quantidade de água ingerida diariamente e emita um diagnóstico (alto, moderado ou baixo risco) com base na tabela fornecida.</td>
             </tr>
             <tr>
                 <td align="center">Nome para Exibição</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/15.%20Nome%20para%20exibi%C3%A7%C3%A3o">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Escrever um código que imprima no console o apelido, ou primeiro nome + sobrenome, ou apenas o primeiro nome, utilizando o conceito de truthiness e sem operadores de comparação ou igualdade.</td>
             </tr>
             <tr>
                 <td align="center">Rematrícula Escolar</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/16.%20Rematr%C3%ADcula%20Escolar">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Verifique a idade do aluno e se possui responsável para realizar a rematrícula. Imprima "Não é possível fazer a rematrícula" ou "Rematrícula realizada com sucesso" conforme o caso.</td>
             </tr>
             <tr>
                 <td align="center">Extrato de compra online</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/17.%20Extrato%20de%20Compra%20Online">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Crie um programa que calcule o valor restante e o número de parcelas a pagar com base no valor do produto, quantidade de parcelas e valor já pago. Imprima o resultado no formato "Restam X parcelas de R$Y".</td>
             </tr>
         </table>  
