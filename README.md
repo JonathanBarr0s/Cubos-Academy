@@ -169,43 +169,43 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">Dando nome as pedras</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/04.%20Dando%20nome%20as%20pedras">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Modificar o programa anterior para identificar o "nome" da bucha de uma pedra de dominó e imprimir o nome correspondente.</td>
             </tr>
             <tr>
                 <td align="center">Peneira de Vôlei</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/05.%20Peneira%20de%20V%C3%B4lei">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Criar um programa para uma "peneira" de vôlei, verificando se um candidato tem altura mínima de 180cm. Imprimir "APROVADO" se tiver 180cm ou mais, ou "REPROVADO" se tiver menos.</td>
             </tr>
             <tr>
                 <td align="center">Definindo as posições</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/06.%20Definindo%20as%20posi%C3%A7%C3%B5es">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Criar um programa para a peneira de vôlei, classificando os candidatos por altura em diferentes posições. Imprimir a posição correspondente ao candidato de acordo com sua altura.</td>
             </tr>
             <tr>
                 <td align="center">Isenção de impostos</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/07.%20Isen%C3%A7%C3%A3o%20de%20impostos">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Criar um programa para determinar se uma pessoa deve pagar Imposto de Renda ou está isenta, com base nas condições de aposentadoria, doença grave e total de rendimentos tributáveis.</td>
             </tr>
             <tr>
                 <td align="center">Montanha Russa Muito Assustadora</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/08.%20Montanha%20Russa%20Muito%20Assustadora">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Criar um programa para determinar se uma pessoa pode ou não brincar na Montanha Russa Muito Assustadora, com base na idade, altura, presença de patologia cardíaca e se é estudante.</td>
             </tr>
             <tr>
                 <td align="center">Transformar nota em conceito</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/09.%20Transformar%20nota%20em%20conceito">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Criar um programa que converta uma nota (de 0 a 10) em um conceito (de A a E) de acordo com a tabela fornecida.</td>
             </tr>
             <tr>
                 <td align="center">Identificando caracteres</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/10.%20Identificando%20caracteres">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Criar um programa que identifique e classifique caracteres em três categorias: Vogal (maiúscula ou minúscula), Consoante ou Número. O programa deve imprimir a categoria correspondente ao caractere fornecido.</td>
             </tr>
             <tr>
                 <td align="center">Valor da parcela do Sucesso Compartilhado</td>
