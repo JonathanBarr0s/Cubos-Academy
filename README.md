@@ -137,10 +137,5 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/02.%20Vari%C3%A1veis/13.%20%C3%81rea%20total%20de%20um%20cilindro">Código</a></td>
                 <td align="center">JavaScript</td>
                 <td>Calculadora que retorna a área total de um cilindro com base nas variáveis.</td>
-            </tr>        
-<!--        <tr>
-                <td>Fórmula de Bhaskara</td>
-                <td><a href="https://github.com/shyoutarou/desafios-DIO/tree/master/Desafios/C%20Sharp/Desafios%20-%20Banco%20Carrefour%20Woman%20Developer/F%C3%B3rmula%20de%20Bhaskara">Código</a></td>
-                <td align="center">✔️</td>
-            </tr>			-->
+            </tr>    
         </table>  
