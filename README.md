@@ -1,13 +1,13 @@
 <h1 align="center">Exercícios e Desafios do curso de Desenvolvimento de Software com foco em Back-end da Cubos Academy :books:</h1>
 
-<br>
 
+<hr>
 <!--Banner session-->
 <p align="center">
   <img src="https://global-uploads.webflow.com/6092ed75cac3156e208ac5e9/6449dd3900dfb768270ef41c_cubos%2Bpotenciatech.webp">
 </p>
-
-<br><br>
+<hr>
+<br>
 
 Recebi uma bolsa integral através do programa iFood 1000 para participar de um curso de 6 meses. O curso abrange temas como desenvolvimento back-end, lógica de programação e habilidades interpessoais. As aulas são ministradas por professores especializados que possuem conhecimento nos projetos desenvolvidos pela Cubos Tecnologia.
 
