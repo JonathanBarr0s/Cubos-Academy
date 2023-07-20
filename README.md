@@ -163,7 +163,7 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">Dominó</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/03.%20Domin%C3%B3">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Criar um programa que identifique se uma pedra de dominó é uma "bucha" e imprima "SIM" nesse caso ou "NÃO" caso contrário</td>
+                <td>Criar um programa que identifique se uma pedra de dominó é uma "bucha" e imprima "SIM" nesse caso ou "NÃO" caso contrário.</td>
             </tr>
             <tr>
                 <td align="center">Dando nome as pedras</td>
