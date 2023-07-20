@@ -150,103 +150,103 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
             <tr>
                 <td align="center">Pedra, papel ou tesoura</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/01.%20Pedra%2C%20papel%20ou%20tesoura">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Par ou ímpar</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/02.%20Par%20ou%20%C3%ADmpar">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Dominó</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/03.%20Domin%C3%B3">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Dando nome as pedras</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/04.%20Dando%20nome%20as%20pedras">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Peneira de Vôlei</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/05.%20Peneira%20de%20V%C3%B4lei">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Definindo as posições</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/06.%20Definindo%20as%20posi%C3%A7%C3%B5es">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Isenção de impostos</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/07.%20Isen%C3%A7%C3%A3o%20de%20impostos">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Montanha Russa Muito Assustadora</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/08.%20Montanha%20Russa%20Muito%20Assustadora">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Transformar nota em conceito</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/09.%20Transformar%20nota%20em%20conceito">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Identificando caracteres</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/10.%20Identificando%20caracteres">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Valor da parcela do Sucesso Compartilhado</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/11.%20Valor%20da%20parcela%20do%20Sucesso%20Compartilhado">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Dia da Semana</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/12.%20Dia%20da%20Semana">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Compra com Desconto</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/13.%20Compra%20com%20Desconto">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Controle de Consumo de Água Ingerida</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/14.%20Controle%20de%20Consumo%20de%20%C3%81gua%20Ingerida">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Nome para Exibição</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/15.%20Nome%20para%20exibi%C3%A7%C3%A3o">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Rematrícula Escolar</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/16.%20Rematr%C3%ADcula%20Escolar">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
             <tr>
                 <td align="center">Extrato de compra online</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/17.%20Extrato%20de%20Compra%20Online">Código</a></td>
-                <td align="center">descrição</td>
+                <td align="center">JavaScript</td>
                 <td>Calculadora que retorna o IMC com base nas variáveis.</td>
             </tr>
         </table>  
