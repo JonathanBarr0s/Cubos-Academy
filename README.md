@@ -151,19 +151,19 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">Pedra, papel ou tesoura</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/01.%20Pedra%2C%20papel%20ou%20tesoura">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Criar um programa que simule "Pedra, papel ou tesoura" entre duas pessoas e imprima o resultado vencedor ou "empate"..</td>
+                <td>Criar um programa que simule "Pedra, papel ou tesoura" entre duas pessoas e imprima o resultado vencedor ou "empate".</td>
             </tr>
             <tr>
                 <td align="center">Par ou ímpar</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/02.%20Par%20ou%20%C3%ADmpar">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Criar um programa para jogar "Par ou ímpar" entre duas pessoas, identificar o vencedor com base nas jogadas e imprimir "par" ou "ímpar" de acordo.</td>
             </tr>
             <tr>
                 <td align="center">Dominó</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/03.%20Domin%C3%B3">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Calculadora que retorna o IMC com base nas variáveis.</td>
+                <td>Criar um programa que identifique se uma pedra de dominó é uma "bucha" e imprima "SIM" nesse caso ou "NÃO" caso contrário</td>
             </tr>
             <tr>
                 <td align="center">Dando nome as pedras</td>
