@@ -8,7 +8,7 @@
 </p>
 <br>
 
-Recebi uma bolsa integral através do programa iFood 1000 para participar de um curso de 6 meses. O curso abrange temas como desenvolvimento back-end, lógica de programação e habilidades interpessoais. As aulas são ministradas por professores especializados que possuem conhecimento nos projetos desenvolvidos pela Cubos Tecnologia.
+Recebi uma bolsa integral através do programa iFood 1000 para participar de um curso de 6 meses. O curso abrange temas como desenvolvimento back-end, lógica de programação e soft skills. As aulas são ministradas por professores especializados que possuem conhecimento nos projetos desenvolvidos pela Cubos Tecnologia.
 
 Durante o curso, tive a oportunidade de aprender a programar no back-end utilizando a linguagem JavaScript. Também adquiri experiência na criação de bancos de dados usando o PostgreSQL. Além disso, fui introduzido ao uso do Git e do GitHub, ferramentas essenciais para controle de versão e colaboração em projetos de programação.
 
