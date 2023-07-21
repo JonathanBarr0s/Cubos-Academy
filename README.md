@@ -1,4 +1,4 @@
-<h1 align="center">Exercícios e Desafios do curso de Desenvolvimento de Software com foco em Back-end da Cubos Academy :books:</h1>
+<h1 align="center">Exercícios e Desafios do Curso de Desenvolvimento de Software com Foco em Back-end da Cubos Academy :books:</h1>
 
 
 
