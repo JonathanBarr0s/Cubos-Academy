@@ -1,6 +1,6 @@
-let m
-let c
-let n
+let m = 90000;
+let c = 60000;
+let n = 24;
 
 const taxaJuros = (((m / c) ** (1 / n)) - 1) * 100;
 
