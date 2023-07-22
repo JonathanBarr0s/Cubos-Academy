@@ -246,6 +246,107 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">Extrato de compra online</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/03.%20Condicionais/17.%20Extrato%20de%20Compra%20Online">Código</a></td>
                 <td align="center">JavaScript</td>
-                <td>Crie um programa que calcule o valor restante e o número de parcelas a pagar com base no valor do produto, quantidade de parcelas e valor já pago. Imprima o resultado no formato "Restam X parcelas de R$Y".</td>
+                <td>Crie um programa que calcule o valor restante e o número de parcelas a pagar com base no valor do produto, quantidade de parcelas e valor já pago. Imprima o resultado no formato "Restam X parcelas de 
+                    R$Y".
+            </td>
+            </tr>
+            <tr>
+                <th colspan="4">Arrays e Loops</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Soma total</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/01.%20Soma%20total">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Contando letras</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/02.%20Contando%20letras">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Encontre o 10</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/03.%20Encontre%20o%2010">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Múltiplos de 3</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/04.%20M%C3%BAltiplos%20de%203">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Filtrando apenas os pares</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/05.%20Filtrando%20apenas%20os%20pares">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Soma dos pares</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/06.%20Soma%20dos%20pares">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Filtrando nomes com a letra A</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/07.%20Filtrando%20nomes%20com%20a%20letra%20A">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Encontrando o maior</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/08.%20Encontrando%20o%20maior">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Fila de pedidos</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/09.%20Fila%20de%20pedidos">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Para pensar um pouco mais</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/10.%20Para%20pensar%20um%20pouco%20mais">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Filtrando números</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/11.%20Filtrando%20n%C3%BAmeros">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Fila do banco</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/12.%20Fila%20do%20banco">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Verificando disjuntores</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/13.%20Verificando%20disjuntores">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Imprima os menores</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/14.%20Imprima%20os%20menores">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
+            </tr>
+                      <tr>
+                <td align="center">Separando pares de ímpares</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/04.%20Arrays%20e%20Loops/15.%20Separando%20pares%20de%20%C3%ADmpares">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Descrição</td>
             </tr>
         </table>  
