@@ -43,7 +43,9 @@ Letícia compra a casa no 1º ano em **preço = 5** e revende no 3º ano em **pr
 6
 ```
 ### Explanation 1
+
 Letícia compra a casa no 2º ano em **preço = 10** e revende no 6º ano em **preço = 4** resultando em uma perca de **10 - 4 = 6**.
+
 ---
 
 Preencha a checklist para fazer os exercícios:
