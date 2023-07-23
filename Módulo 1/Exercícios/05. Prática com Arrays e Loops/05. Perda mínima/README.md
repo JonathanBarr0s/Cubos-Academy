@@ -45,14 +45,3 @@ Letícia compra a casa no 1º ano em **preço = 5** e revende no 3º ano em **pr
 ### Explanation 1
 
 Letícia compra a casa no 2º ano em **preço = 10** e revende no 6º ano em **preço = 4** resultando em uma perca de **10 - 4 = 6**.
-
----
-
-Preencha a checklist para fazer os exercícios:
-
--   [ ] Fazer o fork do repositório para sua conta
--   [ ] Executar `git clone` do seu fork no terminal para clonar o repositório, ou clonar de outra maneira
--   [ ] Após fazer e commitar todos os exercícios fazer o `git push` para seu fork
--   [ ] Copiar a url do seu fork e enviar na plataforma
-
-###### tags: `módulo 1` `exercício de classe` `lógica` `matemática` `nodeJS`

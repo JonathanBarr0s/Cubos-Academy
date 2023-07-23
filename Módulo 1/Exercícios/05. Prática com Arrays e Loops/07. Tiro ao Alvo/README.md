@@ -42,14 +42,3 @@ Como o competidor só acertou um tiro acima de 70 pontos, ele foi eliminado.
 ### Explanation 1
 
 O competidor conseguiu 4 tiros acima de 70 pontos: 90, 80, 100 e 80 novamente.
-
----
-
-Preencha a checklist para fazer os exercícios:
-
--   [ ] Fazer o fork do repositório para sua conta
--   [ ] Executar `git clone` do seu fork no terminal para clonar o repositório, ou clonar de outra maneira
--   [ ] Após fazer e commitar todos os exercícios fazer o `git push` para seu fork
--   [ ] Copiar a url do seu fork e enviar na plataforma
-
-###### tags: `módulo 1` `exercício de classe` `lógica` `matemática` `nodeJS`

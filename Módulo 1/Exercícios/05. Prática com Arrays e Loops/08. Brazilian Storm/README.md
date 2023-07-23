@@ -43,14 +43,3 @@ Uma nota 100 e uma 14 são descartadas. A média das restantes é 75.
 ### Explanation 1
 
 Uma nota 100 e uma 50 são descartadas, sobrando duas notas 100. A média dessas duas notas é, naturalmente, 100.
-
----
-
-Preencha a checklist para fazer os exercícios:
-
--   [ ] Fazer o fork do repositório para sua conta
--   [ ] Executar `git clone` do seu fork no terminal para clonar o repositório, ou clonar de outra maneira
--   [ ] Após fazer e commitar todos os exercícios fazer o `git push` para seu fork
--   [ ] Copiar a url do seu fork e enviar na plataforma
-
-###### tags: `módulo 1` `exercício de classe` `lógica` `matemática` `nodeJS`
