@@ -6,6 +6,13 @@
 
 Em tecnologia, um carrossel é uma sequência de imagens num site que pode mudar conforme o usuário aperta botões para a direita (>) ou para a esquerda (<), como na imagem abaixo:
 
+<p align="center">
+  <img src="https://github.com/JonathanBarr0s/Cubos-Academy/assets/132490863/3386aeaa-9e40-45f1-8c23-bd196ffe3cc9" width="80%" />
+</p>
+
+
+
+<div align="left">
 No time de desenvolvimento que você está trabalhando, você ficou responsável por programar este carrossel, que, neste caso, não passa automaticamente. Ou seja, a imagem só muda se o usuário clicar nos botões para a direita (>) ou para a esquerda (<).
 
 Cada imagem é um item de um array. O carrossel de vocês tem 7 imagens, o que significa que elas ficam guardadas nos índices de 0 a 6 de um array.
