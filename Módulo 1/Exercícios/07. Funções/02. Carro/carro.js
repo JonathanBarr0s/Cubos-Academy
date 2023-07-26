@@ -49,5 +49,3 @@ carro.desacelerar();
 carro.desligar();
 carro.acelerar();
 carro.desacelerar();
-
-
