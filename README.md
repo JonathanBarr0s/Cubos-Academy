@@ -487,6 +487,39 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript</td>
                 <td>Adicionar produtos ao carrinho de clientes.</td>
             </tr>
+            <tr>
+                <th colspan="4">Funções</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Sistema de correção de provas</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/07.%20Fun%C3%A7%C3%B5es/01.%20Sistema%20de%20corre%C3%A7%C3%A3o%20de%20provas">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Desenvolver um programa que simula um sistema de correção de provas e que imprima a quantidade de acertos e nota do aluno.</td>
+            </tr>
+            <tr>
+                <td align="center">Carro</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/07.%20Fun%C3%A7%C3%B5es/02.%20Carro">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Criar um objeto "carro" com propriedades (ligado e velocidade) e métodos (ligar, desligar, acelerar, desacelerar) que interagem com as propriedades. Ao executar os métodos, será possível controlar o estado do carro e exibir seu status no console.</td>
+            </tr>
+            <tr>
+                <td align="center">Carrinho de um e-commerce</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/07.%20Fun%C3%A7%C3%B5es/03.%20Carrinho%20de%20um%20e-commerce">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Implementar um carrinho de e-commerce com funções/métodos para imprimir resumo, adicionar produtos, imprimir detalhes e calcular desconto.</td>
+            </tr>
+            <tr>
+                <td align="center">Sistema de transações bancárias</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/07.%20Fun%C3%A7%C3%B5es/04.%20Sistema%20de%20transa%C3%A7%C3%B5es%20banc%C3%A1rias">Código</a></td>
+                <td align="center">JavaScript</td>
+                <td>Criar um sistema de transações bancárias com um objeto "contaBancaria" contendo métodos para depositar, sacar e emitir extrato.</td>
+            </tr>
         </table>  
 
 <!--
