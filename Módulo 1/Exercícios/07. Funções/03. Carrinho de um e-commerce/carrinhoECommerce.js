@@ -1,6 +1,9 @@
 let produtoIgual = false;
 let quantidade = 0;
 let total = 0;
+let descontoAcimaQuatroItens = 0;
+let descontoAcimaCemReais = 0;
+let desconto = 0;
 
 //Novo Produto
 const novaBermuda = {
@@ -27,10 +30,8 @@ const carrinho = {
         }
     ],
     imprimirResumo: function imprimirResumoDoCarrinho() {
-        for (let i of this.produtos) {
-            quantidade += i.qtd;
-            total = total + (i.qtd * i.precoUnit);
-        }
+        this.calcularTotalDeItens();
+        this.calcularTotalAPagar();
 
         console.log(`Cliente: ${this.nomeDoCliente}`);
         console.log(`Total de itens: ${quantidade} itens`);
@@ -49,22 +50,46 @@ const carrinho = {
     },
     imprimirDetalhes: function imprimirDetalhesDoCarrinho() {
         console.log(`Cliente: ${carrinho.nomeDoCliente}`);
-        quantidade = 0;
-        total = 0;
-        
+        this.calcularTotalDeItens();
+        this.calcularTotalAPagar();
         for (let k of this.produtos) {
-            quantidade += k.qtd;
-            total = total + (k.qtd * k.precoUnit);
-            
             console.log(`Item ${k.id} - ${k.nome} - ${k.qtd} und - R$ ${k.precoUnit.toFixed(2)}`);
         }
         let item = (quantidade > 1 ? "itens" : "item");
         console.log(`Total de ${item}: ${quantidade}`);
         console.log(`Total a pagar: R$ ${total.toFixed(2)}`);
+    },
+    calcularTotalDeItens: function calcularTotalDeItens() {
+        quantidade = 0;
+        for (let l of this.produtos) {
+            quantidade += l.qtd;
+        }
+    },
+    calcularTotalAPagar: function calcularTotalAPagar() {
+        total = 0;
+        for (let m of this.produtos) {
+            total = total + (m.qtd * m.precoUnit);
+        }
+    },
+    calcularDesconto: function calcularDesconto() {
+        this.calcularTotalDeItens();
+        if (quantidade > 4) {
+            let menorPrecoUnit = 99999999999999999;
+            for (let n of this.produtos) {
+                if (n.precoUnit < menorPrecoUnit) {
+                    menorPrecoUnit = n.precoUnit
+                }
+            }
+            descontoAcimaQuatroItens = menorPrecoUnit;
+        }
+        this.calcularTotalAPagar();
+        if (total > 100) {
+            descontoAcimaCemReais = total * 0.1
+        }
+        if (descontoAcimaCemReais > descontoAcimaQuatroItens) {
+            desconto = descontoAcimaCemReais
+        } else {
+            desconto = descontoAcimaQuatroItens
+        }
     }
 }
-
-//carrinho.addProduto(carrinho, novaBermuda);
-//carrinho.imprimirResumo();
-
-carrinho.imprimirDetalhes()
