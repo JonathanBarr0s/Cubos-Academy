@@ -551,7 +551,7 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">Sistema de formatação de dados do formulário</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/08.%20M%C3%A9todos%20de%20Strings/04.%20Sistema%20de%20formata%C3%A7%C3%A3o%20de%20dados%20do%20formul%C3%A1rio">Código</a></td>
                 <td align="center">JavaScript Node.js</td>
-                <td>Criar um sistema que formate os dados do formulário (identificador, nome e email)</td>
+                <td>Criar um sistema que formate os dados do formulário (identificador, nome e email).</td>
             </tr>
             <tr>
                 <td align="center">Esconder número do cartão de crédito</td>
