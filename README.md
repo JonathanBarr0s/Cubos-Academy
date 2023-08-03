@@ -520,6 +520,75 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript Node.js</td>
                 <td>Criar um sistema de transações bancárias com um objeto "contaBancaria" contendo métodos para depositar, sacar e emitir extrato.</td>
             </tr>
+            <tr>
+                <th colspan="4">Métodos de Strings</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Sistema de filtro de comentários</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/08.%20M%C3%A9todos%20de%20Strings/01.%20Sistema%20de%20filtro%20de%20coment%C3%A1rios">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Sistema para formatar números</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/08.%20M%C3%A9todos%20de%20Strings/02.%20Sistema%20para%20formatar%20n%C3%BAmeros">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">URL amigável</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/08.%20M%C3%A9todos%20de%20Strings/03.%20URL%20amig%C3%A1vel">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Sistema de formatação de dados do formulário</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/08.%20M%C3%A9todos%20de%20Strings/04.%20Sistema%20de%20formata%C3%A7%C3%A3o%20de%20dados%20do%20formul%C3%A1rio">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Esconder número do cartão de crédito</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/08.%20M%C3%A9todos%20de%20Strings/05.%20Esconder%20n%C3%BAmero%20do%20cart%C3%A3o%20de%20cr%C3%A9dito">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Formatar número de celular</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/08.%20M%C3%A9todos%20de%20Strings/06.%20Formatar%20n%C3%BAmero%20de%20celular">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Validação de e-mail</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/08.%20M%C3%A9todos%20de%20Strings/07.%20Valida%C3%A7%C3%A3o%20de%20e-mail">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Remover pontuação</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/08.%20M%C3%A9todos%20de%20Strings/08.%20Remover%20pontua%C3%A7%C3%A3o">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Gerador de Nickname</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/08.%20M%C3%A9todos%20de%20Strings/09.%20Gerador%20de%20Nickname">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Validação de arquivos</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/08.%20M%C3%A9todos%20de%20Strings/10.%20Valida%C3%A7%C3%A3o%20de%20arquivos">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
         </table>  
 
 <!--
@@ -535,7 +604,7 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
             <tr>
                 <td align="center">Cadastro de usuário</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/05.%20Pr%C3%A1tica%20com%20Arrays%20e%20Loops/01.%20Purifica%C3%A7%C3%A3o">Código</a></td>
-                <td align="center">JavaScript</td>
+                <td align="center">JavaScript Node.js</td>
                 <td>Descrição</td>
             </tr>
     !-->
