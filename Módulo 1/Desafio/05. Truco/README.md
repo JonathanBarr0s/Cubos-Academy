@@ -15,28 +15,28 @@ O jogo de truco é muito popular pelo Brasil. Numa de suas versões, ele é joga
                 <th>Manilha</th>
             </tr>
             <tr>
-                <td>Q</td>
-                <td>J</a></td>
+                <td align="center">Q</td>
+                <td align="center">J</a></td>
             </tr>
             <tr>
-                <td>J</td>
-                <td>K</td>
+                <td align="center">J</td>
+                <td align="center">K</td>
             </tr>
             <tr>
-                <td>K</td>
-                <td>A</td>
+                <td align="center">K</td>
+                <td align="center">A</td>
             </tr>
             <tr>
-                <td>A</td>
-                <td>2</td>
+                <td align="center">A</td>
+                <td align="center">2</td>
             </tr>
             <tr>
-                <td>2</td>
-                <td>3</td>
+                <td align="center">2</td>
+                <td align="center">3</td>
             </tr>
             <tr>
-                <td>3</td>
-                <td>Q</td>
+                <td align="center">3</td>
+                <td align="center">Q</td>
             </tr>
         </table>
 
@@ -61,13 +61,13 @@ Imprima na tela qual é a manilha desta partida. Sua resposta deve ser sempre um
 ### Sample Input 0
 
 ```javascript
-Q;
+Q
 ```
 
 ### Sample Output 0
 
 ```javascript
-J;
+J
 ```
 
 ---
