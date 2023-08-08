@@ -27,7 +27,7 @@ Imprima na tela o total acumulado nessa lista.
 ### Sample Output 0
 
 ```javascript
-10;
+10
 ```
 
 ---

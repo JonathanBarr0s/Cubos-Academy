@@ -1,11 +1,10 @@
-teste = true;
+const lista = [1, 2, 3, 4];
 
-if (teste) {
-    console.log(teste);
+//Código
+let total = 0;
 
-
-    
-    
-} else {
-    console.log('não deu');
+for (let i of lista) {
+  total = total + i;
 }
+
+console.log(total);
