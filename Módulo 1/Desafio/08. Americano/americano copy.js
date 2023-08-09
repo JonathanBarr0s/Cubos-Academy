@@ -11,6 +11,8 @@ if (soma > numeros.length) {
   let repeticao = Math.trunc(soma / numeros.length);
   let encontrandoIndice = soma - numeros.length * repeticao;
   console.log(encontrandoIndice);
-} else {
+} else if (soma <= numeros.length) {
   console.log(soma);
+} else if (soma === 0) {
+  console.log(numeros.length);
 }
