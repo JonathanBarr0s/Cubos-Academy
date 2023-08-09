@@ -1,16 +1,23 @@
-const numeros = [0, 0, 0, 0];
+const numeros = [1, 1, 1];
 
 //código
 let soma = 0;
+let contagem = 1;
+let posicao = 1;
+let numeroJogadoresTime = numeros.length;
 
 for (let i of numeros) {
   soma = soma + i;
 }
 
-if (soma > numeros.length) {
-  let repeticao = Math.trunc(soma / numeros.length);
-  let encontrandoIndice = soma - numeros.length * repeticao;
-  console.log(encontrandoIndice);
-} else {
-  console.log(soma);
+while (soma !== contagem) {
+  if (posicao === numeroJogadoresTime) {
+    posicao = 1;
+    contagem++;
+  } else {
+    posicao++;
+    contagem++;
+  }
 }
+
+console.log(posicao);
