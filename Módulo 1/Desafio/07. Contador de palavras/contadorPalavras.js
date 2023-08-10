@@ -1,22 +1,18 @@
-let texto = 'jonathan'
+const texto = "Cuidado, pois usuarios as vezes          deixam espacos vazios no fim do texto sem querer ";
 
-//código
-let contadorEspacos = 0;
-let ultimoCaracter = 0;
+// código
 
-if (texto !== "") {
-  const textoSemEspacosInicioEFim = texto.trim();
-}
+let contador = 0;
 
-if (texto === "") {
-  console.log(0);
-} else {
-  for (const i of textoSemEspacosInicioEFim) {
-    if (i === " " && i !== ultimoCaracter) {
-      contadorEspacos++;
+const textoTrim = texto.trim();
+const arrayTexto = textoTrim.split(' ');
+
+for (let i of arrayTexto) {
+    if (i === '') {
+
+    } else {
+        contador++
     }
-    ultimoCaracter = i;
-  }
-
-  console.log(contadorEspacos + 1);
 }
+
+console.log(contador);
