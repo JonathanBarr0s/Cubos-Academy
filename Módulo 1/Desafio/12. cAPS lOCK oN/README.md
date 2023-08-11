@@ -32,7 +32,7 @@ cAPS
 Caps
 ```
 
-## Explanation 0
+### Explanation 0
 
 Ao receber um input com o texto contendo a primeira letra minúscula e o restante da palavra maiúscula devemos retornar o formato inverso, ou seja, a primeira letra maiúscula e o restante da palavra minúscula
 
@@ -48,7 +48,7 @@ lock
 lock
 ```
 
-## Explanation 1
+### Explanation 1
 
 Ao receber um input com o texto minúsculo devemos retornar o texto no mesmo formato
 
@@ -64,7 +64,7 @@ CAPS
 caps
 ```
 
-## Explanation 2
+### Explanation 2
 
 Ao receber um input com o texto todo maiúsculo devemos retornar o texto minúsculo
 
