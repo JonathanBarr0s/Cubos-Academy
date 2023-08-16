@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Exercício 14
+# Exercício 13
 
 ## Cofre Bugadão
 
