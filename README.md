@@ -726,6 +726,87 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript Node.js</td>
                 <td>Criar uma função que facilite encontrar o dono de um pet específico na lista de cadastro de usuários e seus respectivos pets. Se o pet for encontrado, o sistema imprimirá o nome do dono, caso contrário, imprimirá uma mensagem informando que o dono não foi encontrado.</td>
             </tr>
+            <tr>
+                <th colspan="4">Métodos de Arrays II</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Sistema para biblioteca</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/10.%20M%C3%A9todos%20de%20Arrays%20II/01.%20Sistema%20para%20biblioteca">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descriçãoaaaaaaaaaaa</td>
+            </tr>
+            <tr>
+                <td align="center">Verificando limite de caracters</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/10.%20M%C3%A9todos%20de%20Arrays%20II/02.%20Verificando%20limite%20de%20caracters">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Validando lista de compras</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/10.%20M%C3%A9todos%20de%20Arrays%20II/03.%20Validando%20lista%20de%20compras">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Validação de numeros pares</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/10.%20M%C3%A9todos%20de%20Arrays%20II/04.%20Valida%C3%A7%C3%A3o%20de%20numeros%20pares">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Filtro e validação de usuários</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/10.%20M%C3%A9todos%20de%20Arrays%20II/05.%20Filtro%20e%20valida%C3%A7%C3%A3o%20de%20usu%C3%A1rios">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Filtro de caracteres</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/10.%20M%C3%A9todos%20de%20Arrays%20II/06.%20Filtro%20de%20caracteres">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Busca de CEP</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/10.%20M%C3%A9todos%20de%20Arrays%20II/07.%20Busca%20de%20CEP">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Modificando um array</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/10.%20M%C3%A9todos%20de%20Arrays%20II/08.%20Modificando%20um%20array">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Filtro de números positivos</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/10.%20M%C3%A9todos%20de%20Arrays%20II/09.%20Filtro%20de%20n%C3%BAmeros%20positivos">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Filtro de números pares</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/10.%20M%C3%A9todos%20de%20Arrays%20II/10.%20Filtro%20de%20n%C3%BAmeros%20pares">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Filtro de nome por letra</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/10.%20M%C3%A9todos%20de%20Arrays%20II/11.%20Filtro%20de%20nome%20por%20letra">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">Filtro de usuários</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/10.%20M%C3%A9todos%20de%20Arrays%20II/12.%20Filtro%20de%20usu%C3%A1rios">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
         </table>  
 
 <!--
