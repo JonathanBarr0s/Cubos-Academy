@@ -2,7 +2,7 @@
 
 # Desafio do Módulo 01 - Lógica de Programação
 
-O desafio avaliativo do módulo foi individual e ocorreu na plataforma HackerRank. Composto por 13 exercícios de lógica de programação, abordou variáveis, condicionais, arrays, loops, objetos, funções e métodos de strings e arrays.
+Esse desafio é compostos por 13 exercícios de lógica de programação envolvendo variáveis, condicionais, arrays, loops, objetos e funções.
 
 <br>
 
