@@ -30,7 +30,7 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
   
 <!-- Módulo 1 -->
 <details>
-    <summary><strong>Módulo 1</strong></summary>
+    <summary><strong>Módulo 1 - Lógica de Programação</strong></summary>
     <br />
     <div align="center">
       <!-- Tabela Desafio -->
