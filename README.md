@@ -50,7 +50,7 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">Desafio</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Desafio">Código</a></td>
                 <td align="center">JavaScript <br> Node.js</td>
-                <td>Esse desafio é compostos por 13 exercícios de lógica de programação envolvendo variáveis, condicionais, arrays, loops, objetos e funções.</td>
+                <td>Esse desafio é composto por 13 exercícios de lógica de programação envolvendo variáveis, condicionais, arrays, loops, objetos e funções.</td>
             </tr>
         </table>
         <br>
