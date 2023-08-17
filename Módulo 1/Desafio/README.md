@@ -91,5 +91,6 @@ Esse desafio é compostos por 13 exercícios de lógica de programação envolve
             </tr>
             </table>
 
-
+<div align="left">
+ 
 ###### tags: `lógica` `módulo 1` `exercício de classe` `matemática` `nodeJS`
