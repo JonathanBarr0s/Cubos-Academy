@@ -769,7 +769,46 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td>Usar reduce() para encontrar e imprimir, o maior valor de um array de inteiros.</td>
             </tr>
         </table>  
+  </div>
+</details>
 
+
+<!-- Módulo 2 -->
+<details>
+    <summary><strong>Módulo 2</strong></summary>
+    <br />
+    <div align="left">
+      <!-- Tabela Exercícios -->
+        <br>
+      <div align="center">
+      <table border=1>      
+            <tr>
+                <th colspan="4">Exercícios</th>
+            </tr>
+            <tr>
+                <th colspan="4">Primeiro Servidor</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">ControladorDeRodadas.com</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Desafio">Código</a></td>
+                <td align="center">JavaScript <br> Node.js</td>
+                <td>Criar um servidor com Node.js para controlar rodadas de um jogo, respondendo às requisições com o nome do jogador que tem a vez de jogar. O servidor utiliza a porta 3000 e retorna mensagens indicando o jogador atual. Após a última jogada, começa uma nova rodada com o primeiro jogador.</td>
+            </tr>
+            <tr>
+                <td align="center">Cronômetro Online</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Desafio">Código</a></td>
+                <td align="center">JavaScript <br> Node.js</td>
+                <td>Criar um cronômetro online com recursos de iniciar, pausar, continuar e zerar. O servidor escutará a porta 8000 e mostrará o tempo atual do cronômetro em http://localhost:8000.</td>
+            </tr>
+        </table>
+
+        
 <!--
             <tr>
                 <th colspan="4">Objetos</th>
