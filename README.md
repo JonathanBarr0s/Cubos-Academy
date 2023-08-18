@@ -741,6 +741,33 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript Node.js</td>
                 <td>Criar um sistema que filtre pessoas do array por idade e profissão. Você filtrará programadores com mais de 20 anos, jornalistas com mais de 30 anos e jovens jornalistas e programadores com até 29 anos.</td>
             </tr>
+                <tr>
+                <th colspan="4">Métodos de Arrays III</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Lista de exercícios de Ordenação</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/11.%20M%C3%A9todos%20de%20Arrays%20III/01.%20Lista%20de%20exerc%C3%ADcios%20de%20Ordena%C3%A7%C3%A3o">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Praticar a ordenação de arrays usando o método sort() em diferentes critérios.</td>
+            </tr>
+            <tr>
+                <td align="center">Filtrar maior string</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/11.%20M%C3%A9todos%20de%20Arrays%20III/02.%20Filtrar%20maior%20string">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Usar reduce() para encontrar e imprimir a maior string de um array de strings.</td>
+            </tr>
+            <tr>
+                <td align="center">Filtrar maior número</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/11.%20M%C3%A9todos%20de%20Arrays%20III/03.%20Filtrar%20maior%20n%C3%BAmero">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Usar reduce() para encontrar e imprimir, o maior valor de um array de inteiros.</td>
+            </tr>
         </table>  
 
 <!--
