@@ -2,7 +2,7 @@
 
 # Desafio do Módulo 01 - Lógica de Programação
 
-Esse desafio é compostos por 13 exercícios de lógica de programação envolvendo variáveis, condicionais, arrays, loops, objetos e funções.
+Esse desafio é composto por 13 exercícios de lógica de programação envolvendo variáveis, condicionais, arrays, loops, objetos e funções.
 
 <br>
 
