@@ -796,13 +796,13 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
             </tr>
             <tr>
                 <td align="center">ControladorDeRodadas.com</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Desafio">Código</a></td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/01.%20ControladorDeRodadas.com">Código</a></td>
                 <td align="center">JavaScript <br> Node.js</td>
                 <td>Criar um servidor com Node.js para controlar rodadas de um jogo, respondendo às requisições com o nome do jogador que tem a vez de jogar. O servidor utiliza a porta 3000 e retorna mensagens indicando o jogador atual. Após a última jogada, começa uma nova rodada com o primeiro jogador.</td>
             </tr>
             <tr>
                 <td align="center">Cronômetro Online</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Desafio">Código</a></td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/02.%20Cron%C3%B4metro%20Online">Código</a></td>
                 <td align="center">JavaScript <br> Node.js</td>
                 <td>Criar um cronômetro online com recursos de iniciar, pausar, continuar e zerar. O servidor escutará a porta 8000 e mostrará o tempo atual do cronômetro em http://localhost:8000.</td>
             </tr>
