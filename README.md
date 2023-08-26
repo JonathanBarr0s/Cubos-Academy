@@ -806,6 +806,33 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript <br> Node.js</td>
                 <td>Criar um cronômetro online com recursos de iniciar, pausar, continuar e zerar. O servidor escutará a porta 8000 e mostrará o tempo atual do cronômetro em http://localhost:8000.</td>
             </tr>
+            <tr>
+                <th colspan="4">Rotas, Intermediarios e Controladores</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Calculadora Online</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/02.%20Rotas%2C%20Intermediarios%20e%20Controladores/01.%20Calculadora%20Online">Código</a></td>
+                <td align="center">JavaScript <br> Node.js</td>
+                <td>Criar um servidor com quatro rotas GET para executar operações matemáticas básicas (soma, subtração, multiplicação, divisão). As rotas receberão parâmetros de consulta (query parameters) num1 e num2 e retornarão o resultado da operação correspondente.</td>
+            </tr>
+            <tr>
+                <td align="center">RoundControllerEvolution.com</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/02.%20Rotas%2C%20Intermediarios%20e%20Controladores/02.%20RoundControllerEvolution.com">Código</a></td>
+                <td align="center">JavaScript <br> Node.js</td>
+                <td>Criar um servidor Node.js que controla rodadas de um jogo com jogadores, gerenciando a vez de jogar, remoção e adição de jogadores no array, e mantendo a ordem correta das operações. O servidor deve responder às requisições em portas específicas para cada recurso (home, remoção e adição de jogadores) e manipular os dados de acordo com as especificações fornecidas.</td>
+            </tr>
+            <tr>
+                <td align="center">Consulta de imóveis</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/02.%20Rotas%2C%20Intermediarios%20e%20Controladores/03%20Consulta%20de%20im%C3%B3veis">Código</a></td>
+                <td align="center">JavaScript <br> Node.js</td>
+                <td>Criar um servidor Node.js para consulta de imóveis cadastrados, dividindo-o em camadas (dados, controladores e roteadores) para uma melhor organização e manutenção. Implementar duas rotas GET para listar todos os imóveis e para consultar um imóvel pelo ID. Testar o servidor para verificar o correto funcionamento das rotas e camadas separadas.</td>
+            </tr>
         </table>
 
         
