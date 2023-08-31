@@ -846,7 +846,7 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">Cadastro de alunos</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/03.%20API%20REST/01.%20Cadastro%20de%20alunos">Código</a></td>
                 <td align="center">JavaScript Node.js</td>
-                <td>Desenvolvida uma API REST para cadastro de alunos. A API seguirá padrões REST, com métodos GET, POST e DELETE. O endereço base será http://localhost:3000. A autenticação simples via senha (cubos123) será realizada. A organização compreende camadas (dados, controladores, roteador, intermediários). A camada de dados contém uma coleção de alunos, cada um com id, nome, sobrenome, idade e curso. A API atenderá validações específicas para cada método.</td>
+                <td>Desenvolver uma API REST para cadastro de alunos. A API seguirá padrões REST, com métodos GET, POST e DELETE. O endereço base será http://localhost:3000. A autenticação simples via senha (cubos123) será realizada. A organização compreende camadas (dados, controladores, roteador, intermediários). A camada de dados contém uma coleção de alunos, cada um com id, nome, sobrenome, idade e curso. A API atenderá validações específicas para cada método.</td>
             </tr>
             <tr>
                 <td align="center">Lista de convidados</td>
