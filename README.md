@@ -833,9 +833,35 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript <br> Node.js</td>
                 <td>Criar um servidor Node.js para consulta de imóveis cadastrados, dividindo-o em camadas (dados, controladores e roteadores) para uma melhor organização e manutenção. Implementar duas rotas GET para listar todos os imóveis e para consultar um imóvel pelo ID. Testar o servidor para verificar o correto funcionamento das rotas e camadas separadas.</td>
             </tr>
+            <tr>
+                <th colspan="4">API REST</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Cadastro de alunos</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/03.%20API%20REST/01.%20Cadastro%20de%20alunos">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Desenvolvida uma API REST para cadastro de alunos. A API seguirá padrões REST, com métodos GET, POST e DELETE. O endereço base será http://localhost:3000. A autenticação simples via senha (cubos123) será realizada. A organização compreende camadas (dados, controladores, roteador, intermediários). A camada de dados contém uma coleção de alunos, cada um com id, nome, sobrenome, idade e curso. A API atenderá validações específicas para cada método.</td>
+            </tr>
+            <tr>
+                <td align="center">Lista de convidados</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/03.%20API%20REST/02.%20Lista%20de%20convidados">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Desenvolver um sistema para controlar uma lista de convidados de evento. As funcionalidades incluem consultar a lista de convidados, verificar se um nome específico existe, adicionar nomes à lista e remover nomes. O sistema deve aderir ao padrão REST. Será implementado em um servidor que responde em http://localhost:3000 e usa os métodos GET, POST e DELETE.</td>
+            </tr>
+            <tr>
+                <td align="center">Biblioteca Online</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/03.%20API%20REST/03.%20Biblioteca%20Online">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Criar um back-end de uma biblioteca online, uma API REST nodejs acessada em http://localhost:3000. Serão implementados métodos para consultar a coleção de livros, consultar um livro por ID, adicionar, substituir, alterar e remover livros, seguindo os padrões REST e utilizando os verbos HTTP.</td>
+            </tr>
         </table>
 
-        
 <!--
             <tr>
                 <th colspan="4">Objetos</th>
@@ -852,4 +878,21 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript Node.js</td>
                 <td>Descrição</td>
             </tr>
+<!--
+            <tr>
+                <th colspan="4">Objetos</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Cadastro de usuário</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/05.%20Pr%C3%A1tica%20com%20Arrays%20e%20Loops/01.%20Purifica%C3%A7%C3%A3o">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+        
     !-->
