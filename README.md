@@ -775,7 +775,7 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
 
 <!-- Módulo 2 -->
 <details>
-    <summary><strong>Módulo 2</strong></summary>
+    <summary><strong>Módulo 2 - API REST</strong></summary>
     <br />
     <div align="left">
       <!-- Tabela Exercícios -->
