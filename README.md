@@ -873,13 +873,13 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">Cálculo de frete</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/04.%20Programa%C3%A7%C3%A3o%20Ass%C3%ADncrona/01.%20C%C3%A1lculo%20de%20frete">Código</a></td>
                 <td align="center">JavaScript Node.js</td>
-                <td>Descrição</td>
+                <td>Criar uma API que calculará o frete de produtos com base em regras específicas, utilizando três rotas GET para listar produtos, detalhar produtos por ID e calcular o frete com base no estado de destino. O cálculo do frete seguirá diferentes taxas para diferentes estados, com o uso da função getStateFromZipcode da biblioteca utils-playground para determinar o estado a partir do CEP informado. As requisições serão assíncronas e seguirão os padrões REST.</td>
             </tr>
             <tr>
                 <td align="center">API Pokemon</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/04.%20Programa%C3%A7%C3%A3o%20Ass%C3%ADncrona/02.%20API%20Pokemon">Código</a></td>
                 <td align="center">JavaScript Node.js</td>
-                <td>Descrição</td>
+                <td>Criar uma API Pokémon. Esta API permitirá aos usuários listar Pokémon com paginação e obter informações detalhadas sobre um Pokémon por meio de uma rota HTTP GET. As informações detalhadas incluirão propriedades como id, nome, altura, peso, experiência base, formas, habilidades e espécie. A API seguirá os padrões REST e todas as operações serão assíncronas.</td>
             </tr>
         </table>
 
