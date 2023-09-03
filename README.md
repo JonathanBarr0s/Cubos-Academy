@@ -860,6 +860,27 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript Node.js</td>
                 <td>Criar um back-end de uma biblioteca online, uma API REST nodejs acessada em http://localhost:3000. Serão implementados métodos para consultar a coleção de livros, consultar um livro por ID, adicionar, substituir, alterar e remover livros, seguindo os padrões REST e utilizando os verbos HTTP.</td>
             </tr>
+            <tr>
+                <th colspan="4">Programação Assíncrona</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Cálculo de frete</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/04.%20Programa%C3%A7%C3%A3o%20Ass%C3%ADncrona/01.%20C%C3%A1lculo%20de%20frete">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
+            <tr>
+                <td align="center">API Pokemon</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/04.%20Programa%C3%A7%C3%A3o%20Ass%C3%ADncrona/02.%20API%20Pokemon">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Descrição</td>
+            </tr>
         </table>
 
 <!--
@@ -878,21 +899,4 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript Node.js</td>
                 <td>Descrição</td>
             </tr>
-<!--
-            <tr>
-                <th colspan="4">Objetos</th>
-            </tr>
-            <tr>
-                <th>Exercício</th>
-                <th>Solução</th>
-                <th>Tecnologia</th>
-                <th>Descrição</th>
-            </tr>
-            <tr>
-                <td align="center">Cadastro de usuário</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/05.%20Pr%C3%A1tica%20com%20Arrays%20e%20Loops/01.%20Purifica%C3%A7%C3%A3o">Código</a></td>
-                <td align="center">JavaScript Node.js</td>
-                <td>Descrição</td>
-            </tr>
-        
     !-->
