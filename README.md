@@ -793,7 +793,7 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
             </tr>
             <tr>
                 <td align="center">Desafio</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Desafio">Código</a></td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Desafio">Código</a></td>
                 <td align="center">JavaScript <br> Node.js</td>
                 <td>O objetivo do desafio é criar uma API para um Banco Digital, permitindo operações como criar conta bancária, listar contas, atualizar dados do usuário, excluir conta, depositar, sacar, transferir, consultar saldo e emitir extrato. A persistência dos dados é em memória, e a API deve seguir padrões REST, com validações e status codes apropriados.</td>
             </tr>
