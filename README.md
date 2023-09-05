@@ -778,6 +778,27 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
     <summary><strong>Módulo 2 - API REST</strong></summary>
     <br />
     <div align="left">
+        <!-- Tabela Desafio -->
+        <br>
+      <div align="center">
+      <table border=1>      
+            <tr>
+                <th colspan="4">Desafio do Módulo</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Desafio</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Desafio">Código</a></td>
+                <td align="center">JavaScript <br> Node.js</td>
+                <td>O objetivo do desafio é criar uma API para um Banco Digital, permitindo operações como criar conta bancária, listar contas, atualizar dados do usuário, excluir conta, depositar, sacar, transferir, consultar saldo e emitir extrato. A persistência dos dados é em memória, e a API deve seguir padrões REST, com validações e status codes apropriados.</td>
+            </tr>
+        </table>
+        <br>
       <!-- Tabela Exercícios -->
         <br>
       <div align="center">
