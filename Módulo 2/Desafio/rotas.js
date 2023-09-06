@@ -5,6 +5,7 @@ const rotas = express();
 
 rotas.get("/contas", controlador.listarTodasAsContas);
 rotas.get("/contas/saldo", controlador.saldo);
+rotas.get("/contas/extrato", controlador.extrato);
 rotas.post("/contas", controlador.criarcontabancaria);
 rotas.post("/transacoes/depositar", controlador.depositar);
 rotas.post("/transacoes/sacar", controlador.sacar);

@@ -265,7 +265,8 @@ const saldo = (req, res) => {
 
   if (!numero_conta || !senha) {
     return res.status(400).json({
-      mensagem: "É necessário informar o número da conta e a senha corretamente.",
+      mensagem:
+        "É necessário informar o número da conta e a senha corretamente.",
     });
   }
 
@@ -288,6 +289,46 @@ const saldo = (req, res) => {
   });
 };
 
+const extrato = (req, res) => {
+  const { numero_conta, senha } = req.query;
+
+  if (!numero_conta || !senha) {
+    return res.status(400).json({
+      mensagem:
+        "É necessário informar o número da conta e a senha corretamente.",
+    });
+  }
+
+  const indice = contas.findIndex((conta) => conta.numero === numero_conta);
+
+  if (indice === -1) {
+    return res.status(404).json({ mensagem: "Conta não encontrada." });
+  }
+
+  if (contas[indice].usuario.senha !== senha) {
+    return res
+      .status(403)
+      .json({ mensagem: "A senha informada está incorreta." });
+  }
+
+  const saida = {
+    depositos: depositos.filter((deposito) => {
+      return deposito.numero_conta === numero_conta;
+    }),
+    saques: saques.filter((saque) => {
+      return saque.numero_conta === numero_conta;
+    }),
+    transferenciasEnviadas: transferencias.filter((transferencia) => {
+      return transferencia.numero_conta_origem === numero_conta;
+    }),
+    transferenciasRecebidas: transferencias.filter((transferencia) => {
+      return transferencia.numero_conta_destino === numero_conta;
+    }),
+  };
+
+  return res.status(200).json(saida);
+};
+
 module.exports = {
   listarTodasAsContas,
   criarcontabancaria,
@@ -297,4 +338,5 @@ module.exports = {
   sacar,
   transferir,
   saldo,
+  extrato,
 };
