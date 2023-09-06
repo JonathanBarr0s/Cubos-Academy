@@ -1,8 +1,19 @@
-const { depositos } = require("../bancodedados");
-const { transferencias } = require("../bancodedados");
-const { saques } = require("../bancodedados");
-const { contas } = require("../bancodedados");
-const { format } = require("date-fns");
+const {
+  depositos,
+  transferencias,
+  saques,
+  contas,
+} = require("../bancodedados");
+
+const {
+  verificarEntradas,
+  seAContaExiste,
+  verificarEmailouCPF,
+  gerarNumeroNovaConta,
+  buscarIndiceDaConta,
+  verificarValorDaTransacao,
+  registrarDataEHora,
+} = require("../funcoes/funcoes");
 
 const listarTodasAsContas = (req, res) => {
   if (contas.length === 0) {
@@ -17,31 +28,31 @@ const listarTodasAsContas = (req, res) => {
 const criarcontabancaria = (req, res) => {
   const { nome, cpf, data_nascimento, telefone, email, senha } = req.body;
 
-  let numeroDaNovaConta = 0;
+  const obterNumeroParaNovaConta = gerarNumeroNovaConta();
 
-  for (const conta of contas) {
-    if (conta.numero > numeroDaNovaConta) {
-      numeroDaNovaConta = Number(conta.numero);
-    }
-  }
+  const validarEntradas = verificarEntradas(
+    nome,
+    cpf,
+    data_nascimento,
+    telefone,
+    email,
+    senha
+  );
 
-  if (!nome || !cpf || !data_nascimento || !telefone || !email || !senha) {
+  if (!validarEntradas) {
     return res.status(400).json({
       mensagem: "Todos os campos devem ser preenchidos.",
     });
   }
 
-  for (const conta of contas) {
-    if (conta.usuario.cpf === cpf || conta.usuario.email === email) {
-      return res.status(501).json({ mensagem: "CPF ou E-mail já cadastrado." });
-    }
+  const cpfEEmail = verificarEmailouCPF(cpf, email);
+
+  if (!cpfEEmail) {
+    return res.status(400).json({ mensagem: "CPF ou E-mail já cadastrado." });
   }
 
-  numeroDaNovaConta++;
-  numeroDaNovaConta = numeroDaNovaConta.toString();
-
   const novaConta = {
-    numero: numeroDaNovaConta,
+    numero: obterNumeroParaNovaConta,
     saldo: 0,
     usuario: {
       nome,
@@ -61,32 +72,39 @@ const atualizarContaBancaria = (req, res) => {
   const { nome, cpf, data_nascimento, telefone, email, senha } = req.body;
   const { numeroConta } = req.params;
 
-  if (!nome || !cpf || !data_nascimento || !telefone || !email || !senha) {
+  const validarEntradas = verificarEntradas(
+    nome,
+    cpf,
+    data_nascimento,
+    telefone,
+    email,
+    senha
+  );
+
+  if (!validarEntradas) {
     return res.status(400).json({
       mensagem: "Todos os campos devem ser preenchidos.",
     });
   }
 
-  const usuarioExistente = contas.find(
-    (atualizarDados) => atualizarDados.numero === numeroConta
-  );
+  const contaExiste = seAContaExiste(numeroConta);
 
-  if (!usuarioExistente) {
+  if (!contaExiste) {
     return res.status(404).json({ mensagem: "Conta não encontrada." });
   }
 
-  for (const conta of contas) {
-    if (conta.usuario.cpf === cpf || conta.usuario.email === email) {
-      return res.status(501).json({ mensagem: "CPF ou E-mail já cadastrado." });
-    }
+  const cpfEEmail = verificarEmailouCPF(cpf, email);
+
+  if (!cpfEEmail) {
+    return res.status(400).json({ mensagem: "CPF ou E-mail já cadastrado." });
   }
 
-  usuarioExistente.usuario.nome = nome;
-  usuarioExistente.usuario.cpf = cpf;
-  usuarioExistente.usuario.data_nascimento = data_nascimento;
-  usuarioExistente.usuario.telefone = telefone;
-  usuarioExistente.usuario.email = email;
-  usuarioExistente.usuario.senha = senha;
+  contaExiste.usuario.nome = nome;
+  contaExiste.usuario.cpf = cpf;
+  contaExiste.usuario.data_nascimento = data_nascimento;
+  contaExiste.usuario.telefone = telefone;
+  contaExiste.usuario.email = email;
+  contaExiste.usuario.senha = senha;
 
   return res.status(200).json();
 };
@@ -94,7 +112,7 @@ const atualizarContaBancaria = (req, res) => {
 const excluirContaBancaria = (req, res) => {
   const { numeroConta } = req.params;
 
-  const indice = contas.findIndex((conta) => conta.numero === numeroConta);
+  const indice = buscarIndiceDaConta(numeroConta);
 
   if (indice === -1) {
     return res.status(404).json({ mensagem: "Conta não encontrada." });
@@ -114,25 +132,23 @@ const excluirContaBancaria = (req, res) => {
 const depositar = (req, res) => {
   const { numero_conta, valor } = req.body;
 
-  if (valor <= 0) {
+  const transacao = verificarValorDaTransacao(valor);
+
+  if (!transacao) {
     return res.status(400).json({
       mensagem: "O valor do depósito não pode ser zero ou negativo.",
     });
   }
 
-  if (!numero_conta || !valor) {
+  const validarEntradas = verificarEntradas(numero_conta, valor);
+
+  if (!validarEntradas) {
     return res.status(400).json({
       mensagem: "Todos os campos devem ser preenchidos.",
     });
   }
 
-  if (Number(valor) <= 0) {
-    return res.status(400).json({
-      mensagem: "Não é possível depositar valores negativos ou zerados.",
-    });
-  }
-
-  const indice = contas.findIndex((conta) => conta.numero === numero_conta);
+  const indice = buscarIndiceDaConta(numero_conta);
 
   if (indice === -1) {
     return res.status(404).json({ mensagem: "Conta não encontrada." });
@@ -140,11 +156,10 @@ const depositar = (req, res) => {
 
   contas[indice].saldo = contas[indice].saldo + Number(valor);
 
-  const dataHoraAtual = new Date();
-  const dataHoraFormatada = format(dataHoraAtual, "yyyy-MM-dd HH:mm:ss");
+  const dataEHora = registrarDataEHora();
 
   const deposito = {
-    data: dataHoraFormatada,
+    data: dataEHora,
     numero_conta,
     valor,
   };
@@ -157,19 +172,23 @@ const depositar = (req, res) => {
 const sacar = (req, res) => {
   const { numero_conta, valor, senha } = req.body;
 
-  if (valor <= 0) {
+  const transacao = verificarValorDaTransacao(valor);
+
+  if (!transacao) {
     return res.status(400).json({
-      mensagem: "O valor do saque não pode ser zero ou negativo.",
+      mensagem: "O valor do depósito não pode ser zero ou negativo.",
     });
   }
 
-  if (!numero_conta || !valor || !senha) {
+  const validarEntradas = verificarEntradas(numero_conta, valor, senha);
+
+  if (!validarEntradas) {
     return res.status(400).json({
       mensagem: "Todos os campos devem ser preenchidos.",
     });
   }
 
-  const indice = contas.findIndex((conta) => conta.numero === numero_conta);
+  const indice = buscarIndiceDaConta(numero_conta);
 
   if (indice === -1) {
     return res.status(404).json({ mensagem: "Conta não encontrada." });
@@ -187,11 +206,10 @@ const sacar = (req, res) => {
 
   contas[indice].saldo = contas[indice].saldo - Number(valor);
 
-  const dataHoraAtual = new Date();
-  const dataHoraFormatada = format(dataHoraAtual, "yyyy-MM-dd HH:mm:ss");
+  const dataEHora = registrarDataEHora();
 
   const saque = {
-    data: dataHoraFormatada,
+    data: dataEHora,
     numero_conta,
     valor,
   };
@@ -204,13 +222,22 @@ const sacar = (req, res) => {
 const transferir = (req, res) => {
   const { numero_conta_origem, numero_conta_destino, valor, senha } = req.body;
 
-  if (valor <= 0) {
+  const transacao = verificarValorDaTransacao(valor);
+
+  if (!transacao) {
     return res.status(400).json({
-      mensagem: "O valor da transferência não pode ser zero ou negativo.",
+      mensagem: "O valor do depósito não pode ser zero ou negativo.",
     });
   }
 
-  if (!numero_conta_origem || !valor || !senha || !numero_conta_destino) {
+  const validarEntradas = verificarEntradas(
+    numero_conta_origem,
+    numero_conta_destino,
+    valor,
+    senha
+  );
+
+  if (!validarEntradas) {
     return res.status(400).json({
       mensagem: "Todos os campos devem ser preenchidos.",
     });
@@ -245,11 +272,10 @@ const transferir = (req, res) => {
   contas[indiceOrigem].saldo = contas[indiceOrigem].saldo - Number(valor);
   contas[indiceDestino].saldo = contas[indiceDestino].saldo + Number(valor);
 
-  const dataHoraAtual = new Date();
-  const dataHoraFormatada = format(dataHoraAtual, "yyyy-MM-dd HH:mm:ss");
+  const dataEHora = registrarDataEHora();
 
   const transferir = {
-    data: dataHoraFormatada,
+    data: dataEHora,
     numero_conta_origem,
     numero_conta_destino,
     valor,
@@ -263,14 +289,15 @@ const transferir = (req, res) => {
 const saldo = (req, res) => {
   const { numero_conta, senha } = req.query;
 
-  if (!numero_conta || !senha) {
+  const validarEntradas = verificarEntradas(numero_conta, senha);
+
+  if (!validarEntradas) {
     return res.status(400).json({
-      mensagem:
-        "É necessário informar o número da conta e a senha corretamente.",
+      mensagem: "Todos os campos devem ser preenchidos.",
     });
   }
 
-  const indice = contas.findIndex((conta) => conta.numero === numero_conta);
+  const indice = buscarIndiceDaConta(numero_conta);
 
   if (indice === -1) {
     return res.status(404).json({ mensagem: "Conta não encontrada." });
@@ -292,14 +319,15 @@ const saldo = (req, res) => {
 const extrato = (req, res) => {
   const { numero_conta, senha } = req.query;
 
-  if (!numero_conta || !senha) {
+  const validarEntradas = verificarEntradas(numero_conta, senha);
+
+  if (!validarEntradas) {
     return res.status(400).json({
-      mensagem:
-        "É necessário informar o número da conta e a senha corretamente.",
+      mensagem: "Todos os campos devem ser preenchidos.",
     });
   }
 
-  const indice = contas.findIndex((conta) => conta.numero === numero_conta);
+  const indice = buscarIndiceDaConta(numero_conta);
 
   if (indice === -1) {
     return res.status(404).json({ mensagem: "Conta não encontrada." });
