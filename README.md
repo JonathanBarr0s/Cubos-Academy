@@ -933,6 +933,21 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">PostgreSQL</td>
                 <td>Praticar consultas SQL na tabela "musicas", incluindo seleção, filtragem e ordenação de dados com base em critérios como compositores, tempo de execução e palavras-chave nas composições.</td>
             </tr>
+            <tr>
+                <th colspan="4">Funções PostgreSQL</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Fazer consultas usando funções do PostgreSQL</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%203/Exerc%C3%ADcios/02.%20Fun%C3%A7%C3%B5es%20PostgreSQL">Código</a></td>
+                <td align="center">PostgreSQL</td>
+                <td>Praticar consultas no banco de dados utilizando funções do PostgreSQL, como SELECT e COUNT, para obter informações específicas sobre os dados nas tabelas "usuarios" e "farmacia".</td>
+            </tr>
 <!--
             <tr>
                 <th colspan="4">Objetos</th>
