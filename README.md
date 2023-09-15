@@ -903,7 +903,36 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td>Criar uma API Pokémon. Esta API permitirá aos usuários listar Pokémon com paginação e obter informações detalhadas sobre um Pokémon por meio de uma rota HTTP GET. As informações detalhadas incluirão propriedades como id, nome, altura, peso, experiência base, formas, habilidades e espécie. A API seguirá os padrões REST e todas as operações serão assíncronas.</td>
             </tr>
         </table>
+  </div>
+</details>
 
+<!-- Módulo 3 -->
+<details>
+    <summary><strong>Módulo 3 - SQL</strong></summary>
+    <br />
+    <div align="left">
+   <!-- Tabela Exercícios -->
+        <br>
+      <div align="center">
+      <table border=1>      
+            <tr>
+                <th colspan="4">Exercícios</th>
+            </tr>
+            <tr>
+                <th colspan="4">Consultas SQL</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Fazendo consultas com SELECT</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%203/Exerc%C3%ADcios/01.%20Consultas%20SQL">Código</a></td>
+                <td align="center">PostgreSQL</td>
+                <td>Praticar consultas SQL na tabela "musicas", incluindo seleção, filtragem e ordenação de dados com base em critérios como compositores, tempo de execução e palavras-chave nas composições.</td>
+            </tr>
 <!--
             <tr>
                 <th colspan="4">Objetos</th>
