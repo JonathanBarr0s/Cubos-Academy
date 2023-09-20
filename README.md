@@ -948,6 +948,21 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">PostgreSQL</td>
                 <td>Praticar consultas no banco de dados utilizando funções do PostgreSQL, como SELECT e COUNT, para obter informações específicas sobre os dados nas tabelas "usuarios" e "farmacia".</td>
             </tr>
+            <tr>
+                <th colspan="4">CRUD SQL</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">CRUD de usuários</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%203/Exerc%C3%ADcios/03.%20CRUD%20SQL">Código</a></td>
+                <td align="center">PostgreSQL</td>
+                <td>Gerenciar um banco de dados de usuários, realizando operações como criação de tabela, inserção de registros, atualizações, adição de novos campos e restrições, e finalmente, inserir os registros pendentes.</td>
+            </tr>
 <!--
             <tr>
                 <th colspan="4">Objetos</th>
