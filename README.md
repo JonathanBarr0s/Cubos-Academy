@@ -978,6 +978,21 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">PostgreSQL</td>
                 <td>Modelagem e criação do banco de dados para o sistema de vendas online de um supermercado, juntamente com a inserção de dados nas tabelas correspondentes, incluindo categorias, produtos, clientes e vendedores, além de registros de vendas.</td>
             </tr>
+            <tr>
+                <th colspan="4">Conexão Node.js com PostgreSQL</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Implementação de Api para sistemas de Biblioteca</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%203/Exerc%C3%ADcios/04.%20Modelagem%20de%20Dados">Código</a></td>
+                <td align="center">PostgreSQL</td>
+                <td>Implementar uma API para um sistema de bibliotecas, seguindo especificações para criar tabelas, cadastrar autores e livros, buscar informações de autores com seus livros, listar livros com detalhes de seus autores e manter o código organizado e legível.</td>
+            </tr>
 <!--
             <tr>
                 <th colspan="4">Objetos</th>
