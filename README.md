@@ -1006,7 +1006,7 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">Criação de API com autenticação</td>
                 <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%203/Exerc%C3%ADcios/05.%20Conex%C3%A3o%20Node.js%20com%20PostgreSQL">Código</a></td>
                 <td align="center">JavaScript<br>Node.js<br>PostgreSQL</td>
-                <td>criar uma API com autenticação para catalogar Pokemons, com funcionalidades como cadastro de usuários, login, cadastro e gerenciamento de Pokemons, usando bibliotecas como bcrypt e jsonwebtoken para autenticação e segurança.</td>
+                <td>Criar uma API com autenticação para catalogar Pokemons, com funcionalidades como cadastro de usuários, login, cadastro e gerenciamento de Pokemons, usando bibliotecas como bcrypt e jsonwebtoken para autenticação e segurança.</td>
             </tr>
 <!--
             <tr>
