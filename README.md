@@ -993,6 +993,21 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript<br>Node.js<br>PostgreSQL</td>
                 <td>Implementar uma API para um sistema de bibliotecas, seguindo especificações para criar tabelas, cadastrar autores e livros, buscar informações de autores com seus livros, listar livros com detalhes de seus autores e manter o código organizado e legível.</td>
             </tr>
+            <tr>
+                <th colspan="4">Autenticação e Criptografia</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Criação de API com autenticação</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%203/Exerc%C3%ADcios/05.%20Conex%C3%A3o%20Node.js%20com%20PostgreSQL">Código</a></td>
+                <td align="center">JavaScript<br>Node.js<br>PostgreSQL</td>
+                <td>criar uma API com autenticação para catalogar Pokemons, com funcionalidades como cadastro de usuários, login, cadastro e gerenciamento de Pokemons, usando bibliotecas como bcrypt e jsonwebtoken para autenticação e segurança.</td>
+            </tr>
 <!--
             <tr>
                 <th colspan="4">Objetos</th>
