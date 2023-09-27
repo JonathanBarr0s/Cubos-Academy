@@ -1,5 +1,3 @@
-![](https://i.imgur.com/xG74tOh.png)
-
 # Exercício 07
 
 ## Tiro ao Alvo
