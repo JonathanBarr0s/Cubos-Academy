@@ -72,9 +72,10 @@ const cadastrarPokemon = async (req, res) => {
   }
 
   try {
+    let usuarioid = req.usuario.id;
     const novoPokemon = await pool.query(
-      "insert into pokemons (nome, habilidades, imagem, apelido) values ($1, $2, $3, $4) returning *",
-      [nome, habilidades, imagem, apelido]
+      "insert into pokemons (nome, habilidades, imagem, apelido, usuario_id) values ($1, $2, $3, $4, $5) returning *",
+      [nome, habilidades, imagem, apelido, usuarioid]
     );
 
     return res.status(201).json(novoPokemon.rows[0]);
@@ -88,9 +89,10 @@ const atualizarApelidoPokemon = async (req, res) => {
   const { id } = req.params;
 
   try {
+    let usuarioid = req.usuario.id;
     const atualizarApelidoPokemon = await pool.query(
-      "update pokemons set apelido = $1 where id = $2",
-      [apelido, id]
+      "update pokemons set apelido = $1 where id = $2 and usuario_id = $3",
+      [apelido, id, usuarioid]
     );
     return res.status(200).json();
   } catch (error) {
@@ -99,9 +101,12 @@ const atualizarApelidoPokemon = async (req, res) => {
 };
 
 const listarPokemons = async (req, res) => {
+  let usuarioid = req.usuario.id;
   try {
-    console.log(req.usuario);
-    const resultado = await pool.query("SELECT * FROM pokemons order by id");
+    const resultado = await pool.query(
+      "SELECT * FROM pokemons where usuario_id = $1 order by id",
+      [usuarioid]
+    );
     return res.status(200).json(resultado.rows);
   } catch (error) {
     return res.status(500).json({ mensagem: "Erro interno do servidor." });
@@ -112,9 +117,11 @@ const filtrarPokemon = async (req, res) => {
   const { id } = req.params;
 
   try {
-    const resultado = await pool.query("select * from pokemons where id = $1", [
-      id,
-    ]);
+    let usuarioid = req.usuario.id;
+    const resultado = await pool.query(
+      "select * from pokemons where id = $1 and usuario_id = $2",
+      [id, usuarioid]
+    );
     return res.status(200).json(resultado.rows);
   } catch (error) {
     return res.status(500).json({ mensagem: "Erro interno do servidor." });
@@ -125,9 +132,11 @@ const deletarPokemon = async (req, res) => {
   const { id } = req.params;
 
   try {
-    const resultado = await pool.query("delete from pokemons where id = $1", [
-      id,
-    ]);
+    let usuarioid = req.usuario.id;
+    const resultado = await pool.query(
+      "delete from pokemons where id = $1 and usuario_id = $2",
+      [id, usuarioid]
+    );
     return res.status(204).json();
   } catch (error) {
     return res.status(500).json({ mensagem: "Erro interno do servidor." });

@@ -1,4 +1,5 @@
 const pool = require("../conexao");
+const jwt = require("jsonwebtoken");
 
 const senhaSistema = "senha123";
 
@@ -14,7 +15,7 @@ const verificarUsuarioLogado = async (req, res, next) => {
   try {
     const { id } = jwt.verify(token, senhaSistema);
 
-    const { rows, rowCount } = await pool.query("select * from where id = $1", [
+    const { rows, rowCount } = await pool.query("select * from usuarios where id = $1", [
       id,
     ]);
 
