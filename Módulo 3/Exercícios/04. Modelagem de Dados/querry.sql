@@ -1,3 +1,10 @@
+create database ecommerce;
+
+create table clientes (
+  cpf char(11) primary key,
+  nome varchar(150)
+);
+
 create table categorias (
   id serial primary key,
   nome varchar(50)
@@ -9,12 +16,7 @@ create table produtos (
   descricao text,
   preco int,
   quantidade_em_estoque int,
-  categoria_id int references categorias(id)
-);
-
-create table clientes (
-  cpf char(11) primary key,
-  nome varchar(150)
+  categoria_id int not null references categorias(id)
 );
 
 create table vendedores (
@@ -25,21 +27,19 @@ create table vendedores (
 create table pedidos (
   id serial primary key,
   valor int,
-  client_cpf char(11) references clientes(cpf),
-  vendedor_cpf char(11) references vendedores(cpf)
+  client_cpf char(11) not null references clientes(cpf),
+  vendedor_cpf char(11) not null references vendedores(cpf)
 );
 
 create table itens_do_pedido (
  id serial primary key,
-  pedido_id int references pedidos(id),
+  pedido_id int not null references pedidos(id),
   quantidade int,
-  produto_id int references produtos(id)
+  produto_id int not null references produtos(id)
 );
 
---1
 insert into categorias (nome) values ('frutas'), ('verduras'), ('massas'), ('bebibas'), ('utilidades');
 
---2
 insert into produtos (nome, descricao, preco, quantidade_em_estoque, categoria_id)
 values
   ('Mamão', 'Rico em vitamina A, potássio e vitamina C', 300, 123, 1),
@@ -61,7 +61,6 @@ values
   ('Manga', 'Rico em Vitamina A, potássio e vitamina C', 198, 176, 1),
   ('Uva', 'NÃO CONTÉM GLÚTEN.', 420, 90, 1);
   
- --3
 insert into clientes (cpf, nome)
 values
   ('80371350042', 'José Augusto Silva'),
@@ -69,12 +68,102 @@ values
   ('63193310034', 'Ana Rodrigues'),
   ('75670505018', 'Maria da Conceição');
   
-  --4
 insert into vendedores (cpf, nome)
 values
   ('82539841031', 'Rodrigo Sampaio'),
   ('23262546003', 'Beatriz Souza Santos'),
   ('28007155023', 'Carlos Eduardo');
   
- --5
- --a
+insert into pedidos (valor, client_cpf, vendedor_cpf) values (9650, '80371350042', '28007155023');
+
+insert into itens_do_pedido (quantidade, pedido_id, produto_id)
+values
+(1, 1, 1),
+(1, 1, 10),
+(6, 1, 11),
+(1, 1, 15),
+(5, 1, 2);
+
+update produtos set quantidade_em_estoque = quantidade_em_estoque - 1 where id = 10;
+
+update produtos set quantidade_em_estoque = quantidade_em_estoque - 1 where id = 1;
+
+update produtos set quantidade_em_estoque = quantidade_em_estoque - 5 where id = 2;
+
+update produtos set quantidade_em_estoque = quantidade_em_estoque - 1 where id = 15;
+
+update produtos set quantidade_em_estoque = quantidade_em_estoque - 6 where id = 11;
+
+insert into pedidos (valor, client_cpf, vendedor_cpf) values (6460, '63193310034', '23262546003');
+
+insert into itens_do_pedido (pedido_id, quantidade, produto_id) values
+(2, 10, 17),
+(2, 3, 18),
+(2, 5, 1),
+(2, 10, 5),
+(2, 2, 6);
+
+update produtos set quantidade_em_estoque = 87 where id = 18;
+
+update produtos set quantidade_em_estoque = 166 where id = 17;
+
+update produtos set quantidade_em_estoque = 78 where id = 5;
+
+update produtos set quantidade_em_estoque = 117 where id = 1;
+
+update produtos set quantidade_em_estoque = 11 where id = 6;
+
+insert into pedidos (valor, client_cpf, vendedor_cpf) values (4120, '75670505018', '23262546003');
+
+insert into itens_do_pedido (pedido_id, quantidade, produto_id) values
+(3, 1, 13),
+(3, 6, 12),
+(3, 5, 17);
+
+update produtos set quantidade_em_estoque = 29 where id = 13;
+
+update produtos set quantidade_em_estoque = 472 where id = 12;
+
+update produtos set quantidade_em_estoque = 161 where id = 17;
+
+insert into pedidos (valor, client_cpf, vendedor_cpf) values (9370, '75670505018', '82539841031');
+
+insert into itens_do_pedido (pedido_id, quantidade, produto_id) values
+(4, 1, 16),
+(4, 6, 18),
+(4, 1, 7),
+(4, 3, 1),
+(4, 20, 5),
+(4, 2, 6);
+
+update produtos set quantidade_em_estoque = 54 where id = 16;
+
+update produtos set quantidade_em_estoque = 4 where id = 7;
+
+update produtos set quantidade_em_estoque = 81 where id = 18;
+
+update produtos set quantidade_em_estoque = 58 where id = 5;
+
+update produtos set quantidade_em_estoque = 114 where id = 1;
+
+update produtos set quantidade_em_estoque = 9 where id = 6;
+
+insert into pedidos (valor, client_cpf, vendedor_cpf) values
+(8229, '67642869061', '82539841031');
+
+insert into itens_do_pedido (pedido_id, quantidade, produto_id) values
+(5, 8, 18),
+(5, 1, 8),
+(5, 3, 17),
+(5, 8, 5),
+(5, 2, 11);
+
+update produtos set quantidade_em_estoque = 79 where id = 18;
+
+update produtos set quantidade_em_estoque = 50 where id = 5;
+
+update produtos set quantidade_em_estoque = 18 where id = 8;
+
+update produtos set quantidade_em_estoque = 163 where id = 17;
+
+update produtos set quantidade_em_estoque = 492 where id = 11;
