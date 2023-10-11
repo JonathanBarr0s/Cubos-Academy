@@ -1113,6 +1113,21 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript<br>Node.js<br>PostgreSQL</td>
                 <td>Criar uma API com autenticação para catalogar Pokemons, com funcionalidades como cadastro de usuários, login, cadastro e gerenciamento de Pokemons, usando bibliotecas como bcrypt e jsonwebtoken para autenticação e segurança.</td>
             </tr>
+            <tr>
+                <th colspan="4">Integração com API de terceiros</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Coletando dados de empresas</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%203/Exerc%C3%ADcios/07.%20Integra%C3%A7%C3%A3o%20com%20API%20de%20terceiros/01.%20Coletando%20dados%20de%20empresas">Código</a></td>
+                <td align="center">JavaScript<br>Node.js<br>PostgreSQL</td>
+                <td>Criar uma API que coleta dados de empresas, autentica-se na API externa da Abstract API, consulta informações com base no domínio da empresa fornecido, e armazena os resultados em um arquivo JSON chamado empresas.json, excluindo empresas com nomes nulos ou indefinidos.</td>
+            </tr>
 <!--
             <tr>
                 <th colspan="4">Objetos</th>
