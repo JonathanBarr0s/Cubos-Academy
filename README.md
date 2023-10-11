@@ -995,6 +995,27 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
     <summary><strong>Módulo 3 - SQL</strong></summary>
     <br />
     <div align="left">
+        <!-- Tabela Desafio -->
+        <br>
+      <div align="center">
+      <table border=1>      
+            <tr>
+                <th colspan="4">Desafio do Módulo</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Desafio</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%203/Desafio">Código</a></td>
+                <td align="center">JavaScript <br> Node.js <br> PostgreSQL </td>
+                <td>Desenvolver uma RESTful API para realizar operações relacionadas a um sistema de controle financeiro, como cadastrar usuário, fazer login, listar categorias, listar transações, detalhar transação, cadastrar transação, editar transação, remover transação e obter o extrato de transações. Também é necessário criar um banco de dados PostgreSQL com tabelas de usuários, categorias e transações, além de garantir a segurança e validação dos dados.</td>
+            </tr>
+        </table>
+        <br>   
    <!-- Tabela Exercícios -->
         <br>
       <div align="center">
