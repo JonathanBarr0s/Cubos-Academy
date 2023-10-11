@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Google",
+    "domain": "google.com",
+    "year_founded": 1998,
+    "industry": "Internet",
+    "employees_count": 219238,
+    "locality": "Mountain View",
+    "country": "United States",
+    "linkedin_url": "linkedin.com/company/google"
+  },
+  {
+    "name": "Airbnb",
+    "domain": "airbnb.com",
+    "year_founded": 2008,
+    "industry": "Internet",
+    "employees_count": 14604,
+    "locality": "San Francisco",
+    "country": "United States",
+    "linkedin_url": "linkedin.com/company/airbnb"
+  }
+]
