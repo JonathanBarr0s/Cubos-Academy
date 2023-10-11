@@ -929,6 +929,63 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript Node.js</td>
                 <td>Criar uma API que consulta endereços pelo CEP, utilizando a função buscarEndereco e armazenando os resultados em um arquivo JSON, evitando duplicações.</td>
             </tr>
+            <tr>
+                <th colspan="4">Datas em JS</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Criando Datas</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/06.%20Datas%20em%20JS/01.%20Criando%20datas">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Criar datas: uma representando o momento atual e outra para a ceia de Natal de 2020 às 21h30.</td>
+            </tr>
+            <tr>
+                <td align="center">Ordenando registros</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/06.%20Datas%20em%20JS/02.%20Ordenando%20registros">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Ordenar a lista de registros de pessoas, da mais antiga para a mais recente, usando a função sort() e convertendo as datas em objetos Date.</td>
+            </tr>
+            <tr>
+                <td align="center">Tá aberto?</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/06.%20Datas%20em%20JS/03.%20T%C3%A1%20aberto">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Criar uma função que, verificará se uma loja estará aberta com base na hora de chegada do cliente.</td>
+            </tr>
+            <tr>
+                <td align="center">Ainda tá aberto?</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/06.%20Datas%20em%20JS/04.%20Ainda%20t%C3%A1%20aberto">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Criar uma função que, retornará verdadeiro (true) se a loja estiver aberta e falso (false) se estiver fechada, com base na hora e no dia da semana em que o cliente chega à loja.</td>
+            </tr>
+            <tr>
+                <td align="center">E aí, continua aberto?</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/06.%20Datas%20em%20JS/05.%20E%20a%C3%AD%2C%20continua%20aberto">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Criar uma função que, com base em um objeto Date, determine se uma loja estará aberta ou fechada no momento da chegada do cliente.</td>
+            </tr>
+            <tr>
+                <td align="center">Tá valendo a promoção?</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/06.%20Datas%20em%20JS/06.%20T%C3%A1%20valendo%20a%20promo%C3%A7%C3%A3o">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Criar uma função que verificará se um cliente pode usar uma promoção válida por 24 horas, com base em duas datas.</td>
+            </tr>
+            <tr>
+                <td align="center">Ainda tá valendo a promoção?</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/06.%20Datas%20em%20JS/07.%20Ainda%20t%C3%A1%20valendo%20a%20promo%C3%A7%C3%A3o">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Criar uma função que, verificará se um cliente pode usar uma promoção com base nas datas fornecidas.</td>
+            </tr>
+            <tr>
+                <td align="center">Formatando datas</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/06.%20Datas%20em%20JS/08.%20Formatando%20datas">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Criar funções que formatarão datas, retornando diferentes representações, como "05 de outubro de 2020" ou "05/out/2020."</td>
+            </tr>
         </table>
   </div>
 </details>
