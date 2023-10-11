@@ -902,6 +902,33 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript Node.js</td>
                 <td>Criar uma API Pokémon. Esta API permitirá aos usuários listar Pokémon com paginação e obter informações detalhadas sobre um Pokémon por meio de uma rota HTTP GET. As informações detalhadas incluirão propriedades como id, nome, altura, peso, experiência base, formas, habilidades e espécie. A API seguirá os padrões REST e todas as operações serão assíncronas.</td>
             </tr>
+            <tr>
+                <th colspan="4">Leitura e Escrita em Arquivos</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Tratamento de exceções na API Cálculo de frete</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/05.%20Leitura%20e%20Escrita%20em%20Arquivos/01.%20Tratamento%20de%20exce%C3%A7%C3%B5es%20na%20API%20C%C3%A1lculo%20de%20frete">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Implementar o tratamento de exceções na API de cálculo de frete.</td>
+            </tr>
+            <tr>
+                <td align="center">Tratamento de exceções na API Pokemon</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/05.%20Leitura%20e%20Escrita%20em%20Arquivos/02.%20Tratamento%20de%20exce%C3%A7%C3%B5es%20na%20API%20Pokemon">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Implementar o tratamento de exceções na API Pokemon.</td>
+            </tr>
+            <tr>
+                <td align="center">Consulta CEP</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%202/Exerc%C3%ADcios/05.%20Leitura%20e%20Escrita%20em%20Arquivos/03.%20Consulta%20CEP">Código</a></td>
+                <td align="center">JavaScript Node.js</td>
+                <td>Criar uma API que consulta endereços pelo CEP, utilizando a função buscarEndereco e armazenando os resultados em um arquivo JSON, evitando duplicações.</td>
+            </tr>
         </table>
   </div>
 </details>
