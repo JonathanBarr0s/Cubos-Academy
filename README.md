@@ -1128,9 +1128,24 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript<br>Node.js<br>PostgreSQL</td>
                 <td>Criar uma API que coleta dados de empresas, autentica-se na API externa da Abstract API, consulta informações com base no domínio da empresa fornecido, e armazena os resultados em um arquivo JSON chamado empresas.json, excluindo empresas com nomes nulos ou indefinidos.</td>
             </tr>
-<!--
+        </table>
+  </div>
+</details>
+
+<!-- Módulo 4 -->
+<details>
+    <summary><strong>Módulo 4 - Aprofundamentos Back-end</strong></summary>
+    <br />
+    <div align="left">
+       <!-- Tabela Exercícios -->
+        <br>
+      <div align="center">
+      <table border=1>      
             <tr>
-                <th colspan="4">Objetos</th>
+                <th colspan="4">Exercícios</th>
+            </tr>
+            <tr>
+                <th colspan="4">Consultas SQL</th>
             </tr>
             <tr>
                 <th>Exercício</th>
@@ -1139,9 +1154,8 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <th>Descrição</th>
             </tr>
             <tr>
-                <td align="center">Cadastro de usuário</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%201/Exerc%C3%ADcios/05.%20Pr%C3%A1tica%20com%20Arrays%20e%20Loops/01.%20Purifica%C3%A7%C3%A3o">Código</a></td>
-                <td align="center">JavaScript Node.js</td>
-                <td>Descrição</td>
+                <td align="center">Fazendo consultas com SELECT</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%203/Exerc%C3%ADcios/01.%20Consultas%20SQL">Código</a></td>
+                <td align="center">PostgreSQL</td>
+                <td>Praticar consultas SQL na tabela "musicas", incluindo seleção, filtragem e ordenação de dados com base em critérios como compositores, tempo de execução e palavras-chave nas composições.</td>
             </tr>
-    !-->
