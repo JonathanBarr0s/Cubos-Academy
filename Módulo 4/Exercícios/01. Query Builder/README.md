@@ -1,16 +1,22 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Back-end | Query Builder
+# Exercício de classe 🏫
 
-## Exercícios de classe 🏫
+## Implementar Query Builder na API
 
-1.  Implementar Query Builder na API
+A API disponibilizada neste repositório foi desenvolvida utilizando a biblioteca `node-postgres` e todas as queries foram construidas manualmente (query bruta).
 
-Preencha a checklist para fazer os exercícios:
+A sua tarefa será substituir todas as queries criadas no projeto utilizando `Query Builder` com o `Knex.js` mantendo toda estrutura restante do projeto conforme foi desenvolvido.
 
--   [ ] Fazer o fork do repositório para sua conta
--   [ ] Executar `git clone` do seu fork no terminal para clonar o repositório, ou clonar de outra maneira
--   [ ] Após fazer e commitar todos os exercícios fazer o `git push` para seu fork
--   [ ] Copiar a url do seu fork e enviar na plataforma
+Para as rotas de cadastro, deverá retornar um objeto com o registro criado contendo todos os campos da tabela, ao invés de retornar uma mensagem de cadastro com sucesso.
+
+---
+
+Preencha a checklist para finalizar o exercício:
+
+-   [ ] Resolver o exercício revendo a aula se necessário
+-   [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos ou `git add nome_do_arquivo` para adicionar um arquivo específico)
+-   [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
+-   [ ] Pushar os commits no seu fork na origem (`git push origin nome-da-branch`)
 
 ###### tags: `back-end` `módulo 4` `nodeJS` `PostgreSQL` `API REST` `knex` `query builder`
