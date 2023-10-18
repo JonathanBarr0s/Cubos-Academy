@@ -1145,7 +1145,7 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <th colspan="4">Exercícios</th>
             </tr>
             <tr>
-                <th colspan="4">Consultas SQL</th>
+                <th colspan="4">Query Builder</th>
             </tr>
             <tr>
                 <th>Exercício</th>
@@ -1154,8 +1154,8 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <th>Descrição</th>
             </tr>
             <tr>
-                <td align="center">Fazendo consultas com SELECT</td>
-                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%203/Exerc%C3%ADcios/01.%20Consultas%20SQL">Código</a></td>
+                <td align="center">Implementar Query Builder na API</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%204/Exerc%C3%ADcios/01.%20Query%20Builder">Código</a></td>
                 <td align="center">PostgreSQL</td>
-                <td>Praticar consultas SQL na tabela "musicas", incluindo seleção, filtragem e ordenação de dados com base em critérios como compositores, tempo de execução e palavras-chave nas composições.</td>
+                <td>Substituir as queries manuais por Query Builder com o Knex.js na API, melhorando as respostas de cadastro.</td>
             </tr>
