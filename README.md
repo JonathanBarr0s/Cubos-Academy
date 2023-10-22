@@ -1174,3 +1174,18 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript<br>Node.js<br>PostgreSQL</td>
                 <td>Realizar o deploy da aplicação após a refatoração com o Knex.js, assegurando que os endpoints funcionem corretamente após a configuração do banco de dados e a atualização das credenciais na aplicação.</td>
             </tr>
+            <tr>
+                <th colspan="4">Envio de E-mails</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Desenvolver API para envio de Newsletter</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%204/Exerc%C3%ADcios/03.%20Envio%20de%20Emails">Código</a></td>
+                <td align="center">JavaScript<br>Node.js<br>PostgreSQL</td>
+                <td>Desenvolver uma API em Node.js que, permitirá o cadastro de pessoas para receber newsletters e enviar emails informativos com seus nomes.</td>
+            </tr>
