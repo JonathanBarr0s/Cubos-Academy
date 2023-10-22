@@ -1159,3 +1159,18 @@ Aqui estão todas as atividades que realizei durante o curso divididas em módul
                 <td align="center">JavaScript<br>Node.js<br>PostgreSQL</td>
                 <td>Substituir as queries manuais por Query Builder com o Knex.js na API, melhorando as respostas de cadastro.</td>
             </tr>
+            <tr>
+                <th colspan="4">Deploy</th>
+            </tr>
+            <tr>
+                <th>Exercício</th>
+                <th>Solução</th>
+                <th>Tecnologia</th>
+                <th>Descrição</th>
+            </tr>
+            <tr>
+                <td align="center">Fazer deploy de uma aplicação</td>
+                <td><a href="https://github.com/JonathanBarr0s/Cubos-Academy/tree/main/M%C3%B3dulo%204/Exerc%C3%ADcios/01.%20Query%20Builder">Código</a></td>
+                <td align="center">JavaScript<br>Node.js<br>PostgreSQL</td>
+                <td>Realizar o deploy da aplicação após a refatoração com o Knex.js, assegurando que os endpoints funcionem corretamente após a configuração do banco de dados e a atualização das credenciais na aplicação.</td>
+            </tr>
